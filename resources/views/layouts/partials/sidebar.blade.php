@@ -11,7 +11,7 @@
         </li><!-- End Dashboard Nav -->
 
         <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+            <a class="nav-link collapsed"  href="{{ route('pegawai.index')}}">
                 <i class="fas fa-users fa-fw"></i><span>Pegawai</span><i></i>
             </a>
 
@@ -19,7 +19,7 @@
         <li class="nav-heading">Pages</li>
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="pages-login.html">
+            <a class="nav-link collapsed" href="{{ route('logout')}}">
                 <i class="fas fa-sign-out-alt"></i>
                 <span>Sign Out</span>
             </a>
