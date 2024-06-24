@@ -72,15 +72,12 @@
 
                                         <div class="col-12">
                                             <label for="username" class="form-label">Username</label>
-                                            <div class="input-group has-validation">
-                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                <input type="text" name="username" class="form-control"
-                                                    id="username" value="{{ old('username') }}" required>
-                                                <div class="invalid-feedback">Please choose a username.</div>
-                                                @error('username')
-                                                    <div class="invalid-feedback">{{ $message }}</div>
-                                                @enderror
-                                            </div>
+                                            <input type="text" name="username" class="form-control" id="username"
+                                                value="{{ old('username') }}" required>
+                                            <div class="invalid-feedback">Please choose a username.</div>
+                                            @error('username')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
                                         </div>
 
                                         <div class="col-12">
