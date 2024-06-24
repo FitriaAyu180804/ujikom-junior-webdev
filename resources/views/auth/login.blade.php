@@ -55,11 +55,9 @@
                                     <form method="POST" action="{{ route('login') }}" class="row g-3 needs-validation"
                                         novalidate>
                                         @csrf
-
                                         <div class="col-12">
                                             <label for="yourEmail" class="form-label">Email</label>
                                             <div class="input-group has-validation">
-                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
                                                 <input type="email" name="email" class="form-control" id="yourEmail"
                                                     required>
                                                 <div class="invalid-feedback">Please enter your email.</div>
