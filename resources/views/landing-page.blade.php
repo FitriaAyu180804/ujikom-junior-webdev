@@ -37,7 +37,7 @@
         <div class="container d-flex align-items-center">
 
             <div class="logo me-auto">
-                <h1><a href="index.html">Scaffold</a></h1>
+                <h1><a href="index.html">Uji Kompetensi</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
@@ -87,8 +87,8 @@
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
                     data-aos="fade-up">
                     <div>
-                        <h1>We design digital products that help grow businesses</h1>
-                        <h2>We are team of talented designers making websites with Bootstrap</h2>
+                        <h1>UJI KOMPETENSI</h1>
+                        <h2>Junior Web Developer</h2>
                         @if (Auth::check())
                             <a href="{{ route('dashboard') }}" class="btn-get-started scrollto">Dashboard</a>
                         @else
